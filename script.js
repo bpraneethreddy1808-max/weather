@@ -1,4 +1,4 @@
-const apiKey = "a5aacdedf9864812bc6172249252808"; // ⚠️ Replace with your new API key
+const apiKey = "39c5284ed9f5477d8b6172254250311"; // ⚠️ Replace with your new API key
 let myChart = null; 
 
 // Show dashboard once data is available
@@ -123,4 +123,5 @@ function setWeatherAnimation(condition) {
     animBox.className = "weather-animation"; // reset
     if (condition.includes("rain")) animBox.classList.add("rain");
     else if (condition.includes("cloud")) animBox.classList.add("clouds");
+
 }
